@@ -2,7 +2,7 @@ perl-crypt-PBKDF2-minimal-deps
 ==============================
 
 This is a partial implementation of Crypt::PBKDF2 with minimal dependencies on
-external libraries. It focusses on generating LDAP-like formatted PBKDF2 hashes.
+external libraries. It focuses on generating LDAP-like formatted PBKDF2 hashes.
 
 If you're looking at this, I'd suggest you consider using [Crypt::PBKDF2 on
 CPAN
@@ -71,7 +71,7 @@ For example, if I run `perl -V`, part of the output includes the following:
       .
   
 The most common places to install the package are in your source tree, or in
-your 'site_perl' directory. With the example output abve, I could install the
+your 'site_perl' directory. With the example output above, I could install the
 file at `/usr/local/lib/site_perl/Crypt/PBKDF2MinimalDeps.pm` or in the path
 where your source code lives (i.e. in `./Crypt`).
 
